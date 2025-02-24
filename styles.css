@@ -65,6 +65,10 @@ li {
     margin-bottom: 10px;
 }
 
+span {
+    max-width: 200px;
+}
+
 .completed {
     text-decoration: line-through;
     color: gray;
@@ -74,7 +78,6 @@ button.delete {
     background: #d9534f;
     border: none;
     color: white;
-    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
 }
