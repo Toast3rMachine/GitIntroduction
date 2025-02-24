@@ -64,6 +64,10 @@ li {
     margin-bottom: 10px;
 }
 
+span {
+    max-width: 200px;
+}
+
 .completed {
     text-decoration: line-through;
     color: gray;
