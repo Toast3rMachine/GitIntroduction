@@ -27,6 +27,11 @@ function addTodo(event) {
   // Add the new task to the list
   todoList.appendChild(listItem);
 
+  const numberofItems = document.getElementById("nb_task");
+  numberofItems.innerHTML = `
+    <p>Numbers of tasks : ${todoList.childElementCount}</p>
+  `
+
   // Clear the input field
   todoInput.value = '';
 }
